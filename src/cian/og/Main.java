@@ -10,6 +10,9 @@ public class Main {
         System.out.println("Please enter your name");
         String name = scanner.nextLine();
         System.out.println("Hello " + name);
+        System.out.println("Please enter your age");
+        int age = Integer.parseInt(scanner.nextLine());
+        System.out.println(name + " is " + age + " years old");
 
 	    scanner.close();
     }
