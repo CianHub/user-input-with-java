@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Hello " + name);
         System.out.println("Please enter your age");
         int age = Integer.parseInt(scanner.nextLine());
-        System.out.println(name + " is " + age + " years old");
+        System.out.printf("%s is %d years old%n", name, age);
 
 	    scanner.close();
     }
